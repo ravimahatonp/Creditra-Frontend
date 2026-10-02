@@ -3,8 +3,7 @@ node_modules
 dist
 *.local
 .DS_Store
-.env
-.env.*
+!.env.example
 
 # Editor / IDE
 .idea/
@@ -24,3 +23,4 @@ Thumbs.db
 # Coverage and test artefacts
 coverage/
 .nyc_output/
+config.bat
